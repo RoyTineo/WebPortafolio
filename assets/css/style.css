@@ -539,6 +539,13 @@ section {
   position: relative;
 }
 
+.resume .resume-item h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+  color: #111;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -547,6 +554,8 @@ section {
   font-family: "Poppins", sans-serif;
   color: #0563bb;
   margin-bottom: 10px;
+  margin-left: 4px;
+  display: block;
 }
 
 .resume .resume-item h5 {
@@ -555,9 +564,15 @@ section {
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
-
+.resume .resume-item .title-certi {
+  display: flex;
+  flex-direction: row;
+  line-height: 18px;
+  font-size: 18px;
+  color: #0563bb;
+}
 .resume .resume-item ul {
   padding-left: 20px;
 }
@@ -582,6 +597,46 @@ section {
   border: 2px solid #0563bb;
 }
 
+/*--------------------------------------------------------------
+#Certificaciones
+*/
+
+.img-certi{
+  font-size: 5rem;
+  color: #0563bb;
+}
+.certification .card{
+  height: 12rem  ;
+  margin: 1rem 0.5rem;
+  display: flex;
+
+}
+.certification .title-certi {
+  display: flex;
+  flex-direction: row;
+  line-height: 18px;
+  font-size: 18px;
+  color: #0563bb;
+  
+}
+ .certification h4{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  display: block;
+  
+ }
+ .certification .title-certi i{
+  font-size: 30px;
+  
+ }
+
+/*--------------------------------------------------------------
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
