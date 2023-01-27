@@ -522,6 +522,28 @@ section {
   transition: 0.9s;
   background-color: #0563bb;
 }
+.box img{
+  width: 50%;
+  height: 50%;
+  transition: .5s, color .10s;
+      -webkit-transition: .5s, color .10s;
+      -moz-transition: .5s, color .10s;
+}
+
+              
+
+            
+.box img:hover{
+  /* width: 60%; */
+  translate: translateY(-1px);
+  transform: rotateY(90deg);
+      -webkit-transform: rotateY(90deg);
+      -moz-transform: rotateY(90deg);
+}
+.skills .skills-content .img:hover{
+  -webkit-animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
 /*--------------------------------------------------------------
 # Resume
@@ -548,7 +570,7 @@ section {
   color: #111;
 }
 
-.resume .resume-item h4 {
+.resume .resume-item  h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -557,8 +579,9 @@ section {
   color: #0563bb;
   margin-bottom: 10px;
   margin-left: 4px;
-  display: block;
+  
 }
+
 
 .resume .resume-item h5 {
   font-size: 16px;
@@ -568,7 +591,7 @@ section {
   font-weight: 600;
   margin-bottom: 2px;
 }
-.resume .resume-item .title-certi {
+.resume .resume-item .title-certi{
   display: flex;
   flex-direction: row;
   line-height: 18px;
@@ -597,6 +620,14 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
+}
+.resume .resume-item .title-item{
+  display: flex;
+  line-height: 18px;
+  font-size: 18px;
+  color: #0563bb;
+  /* margin-bottom: 10px;
+  margin-left: 4px; */
 }
 
 /*--------------------------------------------------------------
