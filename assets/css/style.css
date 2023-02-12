@@ -603,12 +603,10 @@ resume .content-resume-title{
   position: relative;
 }
 
-.resume-item .collapse:hover{
-    
-}   
-/* .resume .resume-item  {
-    text-transform: uppercase;
-} */
+.resume .resume-item a{
+  background: #f7f8f9;
+  display: block;
+}
 .resume .resume-item  a:hover {
   line-height: 16px;
   font-size: 16px;
